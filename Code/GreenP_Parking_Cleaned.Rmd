@@ -64,4 +64,3 @@ data$extracted_address<-str_replace_all(data$extracted_address, ",.*", "")
 print(df$carparks.rate_details$periods[2][1])
 
 ```
-
