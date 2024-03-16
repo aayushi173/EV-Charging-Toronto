@@ -141,7 +141,7 @@ if (!require(mapview)) install.packages("mapview")
 library(mapview) 
 
 ### Prepare Data to be converted
-biz_data$Address <- paste(biz_data$StreetAddress,biz_data$'Licence Address Line 3', sep = ",")
+biz_data$Address <- paste(biz_data$StreetAddress,biz_data$'Licence Address Line 2',biz_data$'Licence Address Line 3', sep = ",")
 biz_geo_loc = biz_data %>%
   select(Category,`Operating Name`,city = 'Licence Address Line 2',Zip = 'Licence Address Line 3',Street, Address)
 
