@@ -146,11 +146,10 @@ biz_geo_loc = biz_data %>%
   select(Category,`Operating Name`,city = 'Licence Address Line 2',Zip = 'Licence Address Line 3',Street, Address)
 
 ### We narrow down the area to save time in processing, we have identify Toronoto City Center with following zipcode
-###area around M5C = M5H(W), M5B(N), M5E(S), M5A (E), M5G (NW), M5J (SW), M5T & M5V as extended area
-### for test purpose, select only M5C, M5E
-
-biz_geo_loc = biz_geo_loc %>% filter(str_detect(Zip, "M5C|M5E|M5B|M5G|M5H|M5T|M5V|M5J"))
-#biz_geo_loc = biz_geo_loc %>% filter(str_detect(Zip, "M5C|M5E"))
+### Toronto area within Ossington Ave/Dupont Street intersection, Ossington Ave/College Street intersection, 
+### College Street/Spadina Ave Intersection and Spadina Ave/Dupont Street intersection 
+### which are under zip code M6G, M6H, M6J, M5T, M5S, M5R and M4V. 
+biz_geo_loc = biz_geo_loc %>% filter(str_detect(Zip, "M6G|M6H|M6J|M5T|M5S|M5R|M4V"))
 
 ### Convert address to lat - long
 biz_geo_loc = biz_geo_loc %>%
