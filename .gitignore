@@ -201,9 +201,12 @@ cython_debug/
 #.idea/
 
 # datasets
-csv
-readme.xls
-2019.json
-readme.xlsx
-.geojson
-.csv
+Data/**
+*readme.xls
+*2019.json
+*readme.xlsx
+*.geojson
+*.csv
+
+# r files
+.R
