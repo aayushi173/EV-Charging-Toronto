@@ -1,0 +1,129 @@
+# install.packages("tidyjson") 
+# install.packages("tidygeocoder")
+# install.packages("sf")
+# install.packages("mapview")
+
+library(tidyjson)
+library(dplyr)
+library(tidyverse)
+library(tidygeocoder)
+library(sf)
+library(mapview)
+library(stringr)
+library(opendatatoronto)
+
+
+# Get Green P Parking package from Open Data-Toronto
+package <- show_package("b66466c3-69c8-4825-9c8b-04b270069193")
+
+data=as.data.frame('Green P Parking')  #read the dataset Green P Parking in the package 
+data<-show_package(package)
+
+resources<-list_package_resources(package)
+
+# Identify resources
+data_resources <- filter(resources, tolower(format) %in% c("csv", "json"))
+
+# Load Green P Parking 2019 data
+data <- filter(data_resources, row_number() == 1) %>% get_resource()
+
+
+
+# Extract required columns from main data
+data<- data.frame(address=data$carparks$address,
+                                     lat=data$carparks$lat,
+                                     lng=data$carparks$lng,
+                                      carpark_type=data$carparks$carpark_type_str,
+                                      rate_half_hr=data$carparks$rate_half_hour,
+                                      capacity=data$carparks$capacity
+                  )
+
+# Check class of each attribute
+sapply(data, class) 
+
+# Convert char to numeric class
+data$lat<-as.numeric(data$lat)
+data$lng<-as.numeric(data$lng)
+data$rate_half_hr<-as.numeric(data$rate_half_hr)
+data$capacity<-as.numeric(data$capacity)
+
+
+sapply(data, class) 
+
+# Check for missing values
+any(is.na(data))
+
+
+# Extract street name from address
+data <- data %>%
+  mutate(extracted_address = str_replace_all(data$address, "\\(.*?\\)",""))
+
+data$extracted_address<-str_replace_all(data$extracted_address, "-.*", "")
+data$extracted_address<-str_replace_all(data$extracted_address, ",.*", "")
+
+# Extract data with carpark_type as 'Surface'
+data <- data %>%
+  filter(carpark_type == "Surface")
+
+
+# Convert Lat/Lng to address
+geo_rev_data<-data %>%
+  tidygeocoder::reverse_geocode(
+    lat=lat,
+    long=lng,
+    method="osm")
+
+# Plot map
+map<-data %>%
+  st_as_sf(
+    coords=c("lng","lat"),
+    crs=4326
+  )
+
+map %>% mapview()
+
+# Filter data to extract only parking spots with M5C pin code
+filtered_df <- geo_rev_data %>%
+  filter(grepl("M5C", address...8))
+
+# Print the filtered data frame
+print(filtered_df)
+
+# Convert Lat/Lng to address and plot map
+filtered_df_map<-filtered_df %>%
+  st_as_sf(
+    coords=c("lng","lat"),
+    crs=4326
+  )
+
+filtered_df_map %>% mapview()
+
+# Extract street names
+
+filtered_df_map$streets <- gsub("\\d+", "", filtered_df_map$extracted_address) # Remove numbers # nolint # nolint
+filtered_df_map$streets <- gsub("\\.$", "", filtered_df_map$streets) # Remove trailing periods # nolint
+
+filtered_df_map$lat <- filtered_df$lat
+
+filtered_df_map$lng <- filtered_df$lng
+
+
+# Define the polygon coordinates
+polygon_coords <- matrix(c(
+  -79.4289964889767, 43.6700360241176, -79.4226792245877, 43.6543887000655, -79.4000484228339, 43.657948514946, -79.4070875693025, 43.6748646586934,-79.4289964889767, 43.6700360241176  # Repeat first point to close the polygon exactly
+), ncol = 2, byrow = TRUE)
+
+# Create a polygon geometry
+polygon <- st_polygon(list(polygon_coords))
+polygon1 <- st_sfc(polygon, crs = 4326)
+polygon1
+
+# Convert data to sf object
+data_sf <- st_as_sf(data, coords = c("lng", "lat"), crs = 4326)
+indices <- unlist(st_within(data_sf, polygon))
+
+# Print the filtered data
+print(unique(data_within_polygon))
+
+
+
