@@ -2,7 +2,10 @@
 # install.packages("tidygeocoder")
 # install.packages("sf")
 # install.packages("mapview")
+#install.packages("ggspatial")
 
+library(ggplot2)
+library(ggspatial)
 library(tidyjson)
 library(dplyr)
 library(tidyverse)
@@ -82,30 +85,30 @@ map<-data %>%
 
 map %>% mapview()
 
-# Filter data to extract only parking spots with M5C pin code
-filtered_df <- geo_rev_data %>%
-  filter(grepl("M5C", address...8))
+# # Filter data to extract only parking spots with M5C pin code
+# filtered_df <- geo_rev_data %>%
+#   filter(grepl("M5C", address...8))
+# 
+# # Print the filtered data frame
+# print(filtered_df)
+# 
+# # Convert Lat/Lng to address and plot map
+# filtered_df_map<-filtered_df %>%
+#   st_as_sf(
+#     coords=c("lng","lat"),
+#     crs=4326
+#   )
+# 
+# filtered_df_map %>% mapview()
 
-# Print the filtered data frame
-print(filtered_df)
-
-# Convert Lat/Lng to address and plot map
-filtered_df_map<-filtered_df %>%
-  st_as_sf(
-    coords=c("lng","lat"),
-    crs=4326
-  )
-
-filtered_df_map %>% mapview()
-
-# Extract street names
-
-filtered_df_map$streets <- gsub("\\d+", "", filtered_df_map$extracted_address) # Remove numbers # nolint # nolint
-filtered_df_map$streets <- gsub("\\.$", "", filtered_df_map$streets) # Remove trailing periods # nolint
-
-filtered_df_map$lat <- filtered_df$lat
-
-filtered_df_map$lng <- filtered_df$lng
+# # Extract street names
+# 
+# filtered_df_map$streets <- gsub("\\d+", "", filtered_df_map$extracted_address) # Remove numbers # nolint # nolint
+# filtered_df_map$streets <- gsub("\\.$", "", filtered_df_map$streets) # Remove trailing periods # nolint
+# 
+# filtered_df_map$lat <- filtered_df$lat
+# 
+# filtered_df_map$lng <- filtered_df$lng
 
 
 # Define the polygon coordinates
@@ -115,15 +118,31 @@ polygon_coords <- matrix(c(
 
 # Create a polygon geometry
 polygon <- st_polygon(list(polygon_coords))
-polygon1 <- st_sfc(polygon, crs = 4326)
-polygon1
 
-# Convert data to sf object
+# Convert the polygon object to an 'sf' object with a specified CRS (Coordinate Reference System)
+polygon <- st_sfc(polygon, crs = 4326)
+
+# Convert the data frame 'data' to an 'sf' object, specifying the columns containing longitude and latitude as coordinates, and set the CRS
 data_sf <- st_as_sf(data, coords = c("lng", "lat"), crs = 4326)
-indices <- unlist(st_within(data_sf, polygon))
 
-# Print the filtered data
-print(unique(data_within_polygon))
+# Find the indices of the rows in 'data_sf' that fall within the polygon
+indices <- st_within(data_sf, polygon)
 
+# Convert the indices to a data frame
+indices_df<-data.frame(indices)
+
+selected_rows <- data_sf[match(indices_df$row.id, seq_len(nrow(data))), ]
+
+# Print the selected rows
+print(selected_rows) 
+
+# Plot selected rows on map
+map_df <- selected_rows %>%
+  st_as_sf() %>%
+  st_set_crs(4326) %>%
+  fortify()   # Convert the 'sf' object to a format suitable for use with 'ggplot2'
+
+# Display the spatial object using 'mapview'
+mapview(map_df)
 
 
