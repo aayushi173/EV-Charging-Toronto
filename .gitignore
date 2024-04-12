@@ -6,6 +6,8 @@
 # Session Data files
 .RData
 
+business.xlsx
+traffic.Rmd
 # User-specific files
 .Ruserdata
 
