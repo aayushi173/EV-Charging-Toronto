@@ -5,6 +5,7 @@
  all Data is sourced from open data Toronto portal https://open.toronto.ca/dataset which is contained in a R Library:  library(opendatatoronto)
  To download the Traffic Data
  https://open.toronto.ca/dataset/traffic-volumes-at-intersections-for-all-modes/ 
+ and for business information is at https://open.toronto.ca/dataset/municipal-licensing-and-standards-business￾licences-and-permits/
  
  Before Running the Code: 
  Ensure the csv data is downloaded in the data folder. The file sizes exceeds the built in library capacity where it's limited to 32000 rows. 
