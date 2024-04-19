@@ -10,7 +10,7 @@
  Before Running the Code: 
  i) The file sizes exceeds the built in library capacity where it's limited to 32000 rows. Thus, please ensure the csv data is downloaded in the data folder ../Data/Toronto/ 
  
- ii) the geocode conversion of business in Toronto might take longer time due to the number of business to be converted. You can skip to run this section and use the pre-loaded output from business section at ../Data/Toronto/business/biz_geo_loc1.csv.  This biz_geo_loc1 shall be loaded as dataframe 'biz_geo_loc1' which is used as input of the other section of the code. 
+ ii) the geocode conversion of business (section c of business section of the code) might take longer time due to the number of business to be converted. You can skip to run this section and use the pre-loaded output from business section at ../Data/Toronto/business/biz_geo_loc1.csv.  This biz_geo_loc1 shall be loaded as dataframe 'biz_geo_loc1' which is used as input of the other section of the code. 
 
  Running Code:
  EV Charging.ipynb contains the code and analysis of this project. 
