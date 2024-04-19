@@ -1,0 +1,221 @@
+"","address","lat","lng","Convert"
+"1","13 Isabella Street",43.667577,-79.384707,0
+"2","15 Wellesley Street East",43.664837,-79.383591,0
+"3","30 Alvin Avenue",43.6891905646955,-79.3926998352553,0
+"4","716 Pape Avenue",43.679713,-79.345375,0
+"5","351 Keele Street",43.664581,-79.463993,0
+"6","385 Pacific Avenue",43.664736,-79.468124,0
+"7","101 Cedarvale Avenue",43.686541,-79.310957,0
+"8","72 Amroth Avenue",43.685377,-79.311708,0
+"9","670 Pape Avenue",43.678146,-79.344774,0
+"10","20 Castlefield Avenue",43.711828,-79.400082,0
+"11","7 Norton Avenue",43.678365,-79.443882,0
+"12","14 Fuller Avenue",43.640788,-79.439542,0
+"13","111 Broadview Avenue",43.659179,-79.349774,0
+"14","125 Burnaby Blvd",43.704445,-79.412076,0
+"15","85 Lee Avenue",43.6704624,-79.2979613,0
+"16","365 Lippincott Street",43.665054,-79.409662,1
+"17","803 Richmond Street West",43.644546,-79.410778,0
+"18","23 Bedford Park Avenue",43.72677,-79.40433,0
+"19","265 Durie Street",43.650881,-79.479014,0
+"20","35 Bellevue Avenue",43.654184,-79.403176,0
+"21","35 Erindale Avenue",43.677316,-79.357467,1
+"22","405 Sherbourne Street",43.66452,-79.373502,0
+"23","400 Keele Street",43.66611,-79.465045,0
+"24","695 Lansdowne Avenue",43.658969,-79.442739,0
+"25","9 Emerson Ave.",43.659412,-79.440143,0
+"26","9 Salem Avenue",43.661011,-79.431667,0
+"27","557 Palmerston Avenue",43.665039,-79.413579,0
+"28","14 Arundel Avenue",43.678456,-79.351223,1
+"29","25 Ferrier Avenue",43.679007,-79.348379,0
+"30","20 Eaton Avenue",43.679954,-79.343948,0
+"31","17 Eaton Avenue",43.680078,-79.343197,0
+"32","265 Armadale Avenue",43.650283,-79.483039,1
+"33","675 Manning Avenue",43.664651,-79.416014,0
+"34","745 Ossington Avenue, 16 Carling Avenue",43.662431,-79.425648,0
+"35","15 Denison Avenue",43.648412,-79.400307,0
+"36","251 MacPherson Avenue",43.677378,-79.40035,0
+"37","51 Aberdeen Avenue",43.664703,-79.36905,0
+"38","1612 Danforth Avenue",43.683577,-79.322995,1
+"39","255 Kennedy Avenue",43.65168,-79.475119,0
+"40","7 Bartlett Avenue",43.660899,-79.433013,0
+"41","912 Eglinton Avenue West",43.700543,-79.428073,0
+"42","20 Prescott Avenue ",43.675143,-79.457513,0
+"43","77 Gough Avenue",43.679481,-79.346287,0
+"44","6 Sherwood Avenue",43.713751,-79.399213,0
+"45","141 Greenlaw Avenue",43.676198,-79.447739,0
+"46","31 Langford Avenue",43.680613,-79.340751,0
+"47","265 Willard Avenue",43.650431,-79.481771,0
+"48","376 Clinton Street",43.664441,-79.41758,0
+"49","573 Gerrard Street East",43.665202,-79.353164,0
+"50","12 Woodycrest Avenue",43.68035,-79.342339,0
+"51","25 Glenforest Road",43.730266,-79.402734,0
+"52","995 Eglinton Avenue West",43.699612,-79.431131,0
+"53","18 Ferrier Avenue",43.678945,-79.348798,0
+"54","1325 Queen Street West",43.64095,-79.433856,0
+"55","453 Spadina Road",43.689543,-79.412946,0
+"56","18 Ossington Avenue",43.644655,-79.419286,0
+"57","146 Harrison Street",43.650423,-79.424404,0
+"58","117 Hammersmith Avenue",43.671707,-79.294358,1
+"59","737 Rhodes Avenue",43.682926,-79.324476,0
+"60","151 Hiawatha Road",43.672598,-79.322941,0
+"61","653 Gerrard Street East",43.665784,-79.350195,0
+"62","268 Rhodes Ave",43.672047,-79.320366,0
+"63","1155 King Street West",43.637863,-79.424011,0
+"64","166 Woodbine Ave",43.668252,-79.306226,1
+"65","192 Boardwalk Dr",43.668004,-79.307384,0
+"66","116 Joseph Duggan Rd",43.667724,-79.308522,0
+"67","118 Sarah Ashbridge Ave",43.667445,-79.309487,0
+"68","116 Winners Circle",43.667107,-79.31074,0
+"69","157 Beatrice Street",43.654669,-79.416411,0
+"70","1675 Lakeshore Blvd. E. (Parks)",43.662417,-79.311188,0
+"71","20 Ashbridges Bay Park Road (Parks)",43.660056,-79.311365,0
+"72","15 Price St",43.679814,-79.390007,0
+"73","1167 Eastern Avenue",43.665986,-79.313049,0
+"74","1141 Eastern Avenue",43.66566,-79.314079,0
+"75","1117 Dundas Street West",43.649267,-79.420135,0
+"76","465 Huron Street",43.667778,-79.401648,0
+"77","2001 Lake Shore Blvd. West (Parks)",43.634103,-79.469036,0
+"78","2001 Lake Shore Blvd. West (Parks)",43.637123,-79.462266,0
+"79","1575 Lake Shore Blvd. W. (Parks)",43.637473,-79.451301,0
+"80","300 Remembrance Drive ",43.6330895,-79.4087431,0
+"81","1275 Lakeshore Blvd. W. (Parks)",43.6338559495817,-79.4382742037049,0
+"82","363 Adelaide Street West",43.646712,-79.39491,0
+"83","205 McCaul Street",43.657231,-79.392475,0
+"84","1445 Bathurst Street",43.682499,-79.41787,0
+"85","3354 Dundas Street West",43.665668,-79.4819,0
+"86","87 Richmond Street East",43.652464,-79.374326,0
+"87","789 St. Clair Avenue West",43.680738,-79.429629,0
+"88","1501 Yonge Street",43.6892603924517,-79.3942691134918,0
+"89","34 Hanna Avenue",43.638242,-79.419812,0
+"90","80 Clinton Street",43.656346,-79.414555,0
+"91","646 St. Clair Avenue West",43.682103,-79.4242,0
+"92","105 Spadina Avenue",43.64668,-79.395233,0
+"93","11 Kenwood Avenue",43.68298,-79.422065,0
+"94","110 Dovercourt Road",43.64384,-79.422762,0
+"95","31A Parliament Street",43.649553,-79.361694,0
+"96","19 Spadina Road",43.667974,-79.404218,1
+"97","44 Parliament Street",43.650361,-79.362445,0
+"98","2201 Dundas Street West",43.653388,-79.451323,0
+"99","9 Madison Ave.",43.667558,-79.4028,0
+"100","700 St. Clair Ave West",43.681863,-79.42654,0
+"101","9 Bonar Place",43.6527778,-79.4338219,0
+"102","115 Unwin Avenue",43.641425,-79.341888,0
+"103","1439 Danforth Avenue",43.682646,-79.326321,0
+"104","31 Blackthorn Ave",43.6754575,-79.4582834,0
+"105","136 Broadview Avenue",43.659822,-79.350373,0
+"106","1670 Bayview Ave",43.7074,-79.376543,0
+"107","201 Claremont Street",43.651657,-79.41125,0
+"108","154 Westmount Avenue",43.678907,-79.442248,0
+"109","1624 Queen Street West",43.639526,-79.442441,0
+"110","4 Spadina Road",43.666878,-79.404116,0
+"111","94 Northcliffe Blvd.",43.6778094174964,-79.4406608171272,0
+"112","130 Elizabeth Street - Toronto Coach Terminal",43.6556316577341,-79.3857854604721,0
+"113","250 Fort York Blvd. ",43.637208258929,-79.406461027578,0
+"114","271 Front Street East",43.651254,-79.362971,0
+"115","1010 Yonge St.",43.675942,-79.389439,0
+"116","800 Fleet Street",43.636821,-79.409705,0
+"117","242 Danforth Avenue",43.6770516151071,-79.3548725310048,0
+"118","287 Rushton Road",43.681835,-79.4277031,0
+"119","838 Broadview Ave.",43.678499963983,-79.3588725706043,0
+"120","1091 Eastern Avenue",43.664603,-79.318234,0
+"121","292 Brunswick Avenue",43.665368970093,-79.4076361251659,0
+"122","373 Front Street East",43.6521902325786,-79.3594207332046,0
+"123","185 Queens Quay East",43.6443439857175,-79.3662570749035,0
+"124","545 Lake Shore Boulevard West",43.6364562,-79.3986913,0
+"125","136 Wineva Ave.",43.671253953447,-79.2959578153443,0
+"126","10 Kingsdale Avenue",43.770373,-79.41257,0
+"127","246 Brooke Avenue",43.733158,-79.420295,0
+"128","10 Empress Avenue",43.769459,-79.412484,0
+"129","10 Harlandale Avenue",43.762168,-79.412441,0
+"130","180 Beecroft Road",43.767569,-79.416143,0
+"131","1880 Avenue Road",43.732182,-79.419576,0
+"132","11 Finch Avenue West",43.779321,-79.416572,0
+"133","4576 Yonge Street",43.756023,-79.410403,0
+"134","3885 Yonge Street",43.741786,-79.40595,0
+"135","68 Sheppard Avenue West",43.76082,-79.414662,0
+"136","5667 Yonge Street",43.781482,-79.415703,0
+"137","2170 Bayview avenue",43.723875,-79.379571,0
+"138","7 Jackson Avenue",43.6483334,-79.5090384,0
+"139","11 Grenview Blvd. N.",43.648738,-79.507853,0
+"140","342 Prince Edward Drive N.",43.6488534,-79.5055311,0
+"141","12 Willingdon Blvd. - partial construction, reduced spaces",43.648389,-79.510632,0
+"142","9 Willingdon Blvd.",43.6481868,-79.5102001,0
+"143","934 Royal York Road",43.646766,-79.511318,0
+"144","140 Fifth Street",43.60169,-79.503422,0
+"145","66 Third Street",43.601216,-79.500697,0
+"146","128 Eighth Street",43.600906,-79.506769,0
+"147","105 Fourth Street",43.600781,-79.501415,0
+"148","3239 Lake Shore Boulevard West",43.5969875841121,-79.5217088637543,0
+"149","120 Sixth Street",43.600152,-79.50399,0
+"150","3220 Bloor Street West",43.645959,-79.518067,0
+"151","575 Royal York Road",43.626997,-79.502724,0
+"152","139 ISLINGTON AVE.",43.601317,-79.50531,0
+"153","WOOLGAR LANEWAY REAR OF 1124 THE QUEENSWAY",43.623355,-79.519,0
+"154","15 Primrose Avenue",43.614299,-79.489882,0
+"155","5 Dayton Avenue",43.625584,-79.503551,0
+"156","20 Royalavon Crescent",43.645253,-79.532733,0
+"157","7 Monkton Avenue",43.644336,-79.521886,0
+"158","2195 Lake shore Blvd West (Parks)",43.6227739895514,-79.4767338220902,0
+"159","2225 Lake shore Blvd West (Parks)",43.6200300180063,-79.4806666413864,0
+"160","2225 Lake shore Blvd West (Parks)",43.6196410632487,-79.4794703761658,0
+"161","2225 Lake shore Blvd West (Parks)",43.616982,-79.477247,0
+"162","2225 Lake shore Blvd West (Parks)",43.61478,-79.478059,0
+"163","2225 Lake shore Blvd West (Parks)",43.613359,-79.479926,0
+"164","5 Colonel Samuel Smith Park Drive",43.5978864295698,-79.5211193809232,0
+"165","65 Colonel Samuel Smith Park Drive",43.593757,-79.516468,0
+"166","14 Barkwin Dr.",43.738381,-79.5652828,0
+"167","2300 Lake shore Boulevard West",43.6184744,-79.4867386,1
+"168","15 Marine Parade Drive",43.6267898,-79.4767453,0
+"169","550 Mortimer Avenue",43.6905916,-79.3275032,0
+"170","1503 Bayview Avenue",43.703909,-79.374332,0
+"171","1169 Weston Road",43.687441,-79.4903,0
+"172","301 Scott Road",43.690343,-79.472383,0
+"173","17 Riverview Gardens",43.649119,-79.486397,0
+"174","16 Riverview Gardens",43.648894,-79.486663,0
+"175","1A Mould Avenue",43.668423,-79.486953,0
+"176","271A Scarlett Road",43.67789,-79.506555,0
+"177","2054 Dufferin Street",43.686611,-79.446806,0
+"178","341 Oakwood Avenue",43.686479,-79.43819,0
+"179","406 Oakwood Avenue",43.688069,-79.439317,0
+"180","433 Rogers Road",43.682507,-79.463983,0
+"181","1 Shortt Street",43.695951,-79.451795,0
+"182","1531 Eglinton Avenue West",43.697588,-79.440712,0
+"183","2700 Eglinton Avenue West",43.690203,-79.477919,0
+"184","2700 Eglinton Avenue West",43.690792,-79.478585,0
+"185","2053 Dufferin Street",43.6866,-79.446383,0
+"186","2623 Eglinton Avenue West",43.689981,-79.475222,0
+"187","4 Rosemount Avenue",43.7013911,-79.5138189,0
+"188","101 Grangeway Avenue",43.775378,-79.250093,0
+"189","197 Blantyre Avenue",43.68177,-79.281496,0
+"190","1 Brimley Road (Bluffer's Park)",43.70664,-79.235437,0
+"191","1 Brimley Road (Bluffer's Park)",43.707446,-79.234632,0
+"192","1 Brimley Road (Bluffer's Park)",43.712603,-79.230051,0
+"193","284 Milner Avenue",43.789429,-79.238387,0
+"194","1530 Markham Road - minor capital repairs onsite",43.789507,-79.237915,0
+"195","1940 Lawrence Avenue East",43.744476,-79.299188,0
+"196","100 Grangeway Avenue",43.77458,-79.251359,0
+"197","158 Borough Drive",43.772181,-79.256377,0
+"198","Kipling South Lot - 400 Munster Avenue",43.636572,-79.534117,0
+"199","Islington Main Lot - 3330 Bloor Street West",43.644181,-79.526188,0
+"200","Islington Lomond Lot - 20 Lomond Drive",43.646774,-79.522862,0
+"201","Keele Lot - 400 Indian Road",43.655818,-79.457159,0
+"202","Wilson South Lot - 30 Tippett Road",43.733662,-79.447117,0
+"203","Wilson Main Lot - 50 Wilson Heights Blvd",43.736244,-79.449177,0
+"204","Finch West Lot - 18 Hendon Ave",43.782032,-79.416368,0
+"205","Finch East - 814 Willowdale Ave - partial closure, reduced spaces",43.782319,-79.415907,0
+"206","Leslie Lot - 2760 Old Leslie Street",43.770058,-79.367484,0
+"207","Don Mills Lot - 1800 Sheppard Ave East",43.775815,-79.346707,0
+"208","Ellesmere Lot - Near 1050 Ellesmere Road - closed for construction until November 2019",43.766793,-79.276394,0
+"209","Lawrence East Lot - Near 2450 Lawrence Ave East",43.750477,-79.270269,0
+"210","Kennedy South Lot -155 Transway Cres",43.731844,-79.263471,0
+"211","Warden North Lot - 705 Warden Ave",43.715522,-79.28131,0
+"212","Warden South Lot - 701 Warden Ave",43.710032,-79.27979,0
+"213","Victoria Main Lot - 777 Victoria Park Avenue",43.693563,-79.289052,0
+"214","Kennedy North Service Road - 2450 Eglinton Ave East",43.734117,-79.263977,0
+"215","Downsview Lot - 415 William R Allen Rd",43.747011,-79.459006,0
+"216","Transit Road Lot - 25 Transit Rd",43.733843,-79.452436,0
+"217","22 Fieldway Rd",43.642473,-79.52754,0
+"218","3950 Keele Street",43.7655225,-79.491758,0
+"219","2800 Steeles Ave W.",43.7778992,-79.5111635,0
+"220","7332 Jane St",43.7822568,-79.521934,0

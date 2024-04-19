@@ -203,12 +203,12 @@ cython_debug/
 #.idea/
 
 # datasets
-Data/**
+Data/Toronto/**
 *readme.xls
 *2019.json
 *readme.xlsx
 *.geojson
-*.csv
+
 
 # r files
 .R
