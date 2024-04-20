@@ -28,12 +28,12 @@ Business Section OUTPUT: ‘biz_geo_loc1’ dataframe which is pre-uploaded ("..
 # lat, long : Lattitude , Longitude converting from address into geocoder
 # lamda : customer arrival rate used to simulate the number of customer during busy hours(assumption)
 # mu : expected time spent (in hr) during busy hours of a customer (exponential distribution) 
-# qCustomer: number of customer at busy hours (simulated from lamda)
-# tCustomer: time spent at the business per customer (simulated) **
+# qCustomer: number of customer at busy hours simulated from rpois(lamda)
+# tCustomer: time spent at the business per customer simulated from rexp(mu)
 Business Section CODE: Codes are separated into 4 sections:
 #section a) load data from Opendatatoronto to biz_data dataframe
 #section b) data cleansing in preparation for geocoder conversion
 #section c) physical address conversion to geocoder using tidygeocoder from tidyverse package 
-#section d) adding simulated number of customer (qCustomer) and time spent (tCustomer) during busy hours to biz_geo_loc1.  ‘Category’ is used as an input for simulating the customer number and time spent using random number generation based on its customer arrival rate λ (Lamda) and average service time in hour µ (mu) assumption on each business type which is defined in as in “biz_category_customer.csv”.   We assume Poisson process with the arrival rate 
+#section d) adding simulated number of customer (qCustomer) and time spent (tCustomer) during busy hours to biz_geo_loc1.  ‘Category’ is used as an input for simulating the customer number and time spent using random number generation based on its customer arrival rate λ (Lamda) and average service time in hour µ (mu) assumption on each business type which is defined in as in “biz_category_customer.csv”.   We assume Poisson process with the arrival rate (lamda) customer per hour whereas the time spent for each customer follows exponential distribution with average time spent (mu) hour per customer.
 #############################################################################
  
