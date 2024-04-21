@@ -1,212 +1,212 @@
 "","id","address","d_value"
-"1",44,"14 Fuller Avenue",1.53577864566617
-"2",256,"1624 Queen Street West",1.38386710811257
-"3",279,"287 Rushton Road",1.29367861855456
-"4",220,"789 St. Clair Avenue West",1.2141956450945
-"5",71,"35 Bellevue Avenue",1.04916711250514
-"6",53,"803 Richmond Street West",1.03191492121887
-"7",240,"700 St. Clair Ave West",0.999033153608901
-"8",228,"11 Kenwood Avenue",0.931839800062299
-"9",109,"51 Aberdeen Avenue",0.853324529088225
-"10",659,"341 Oakwood Avenue",0.839627103010185
-"11",271,"800 Fleet Street",0.815694513799521
-"12",209,"300 Remembrance Drive ",0.795664505690677
-"13",90,"17 Eaton Avenue",0.729554573191506
-"14",89,"20 Eaton Avenue",0.714244502859884
-"15",226,"646 St. Clair Avenue West",0.655111977482108
-"16",158,"1325 Queen Street West",0.585632105316063
-"17",167,"18 Ossington Avenue",0.473019678534638
-"18",229,"110 Dovercourt Road",0.462300092846939
-"19",79,"405 Sherbourne Street",0.449042287442434
-"20",288,"292 Brunswick Avenue",0.432334289543971
-"21",149,"12 Woodycrest Avenue",0.385051777056277
-"22",235,"2201 Dundas Street West",0.38052963149875
-"23",224,"34 Hanna Avenue",0.374096351223669
-"24",661,"433 Rogers Road",0.359519773891556
-"25",210,"1275 Lakeshore Blvd. W. (Parks)",0.343176280791127
-"26",88,"25 Ferrier Avenue",0.245950057123977
-"27",268,"271 Front Street East",0.229900834336237
-"28",116,"255 Kennedy Avenue",0.217403295864837
-"29",156,"18 Ferrier Avenue",0.175040740789616
-"30",168,"146 Harrison Street",0.169987466879833
-"31",660,"406 Oakwood Avenue",0.158764357187972
-"32",241,"9 Bonar Place",0.149019728198622
-"33",28,"670 Pape Avenue",0.137099054725417
-"34",64,"265 Durie Street",0.133374817143417
-"35",3,"13 Isabella Street",0.119836897842169
-"36",84,"9 Salem Avenue",0.109052124628432
-"37",208,"1575 Lake Shore Blvd. W. (Parks)",0.105127524842711
-"38",144,"376 Clinton Street",0.0669641893501918
-"39",137,"77 Gough Avenue",0.0473740536787581
-"40",277,"242 Danforth Avenue",0.0433563612693331
-"41",300,"185 Queens Quay East",0.00836083058095066
-"42",602,"1503 Bayview Avenue",0.00579792528126272
-"43",142,"31 Langford Avenue",-0.0158137063117319
-"44",41,"7 Norton Avenue",-0.0338864776522618
-"45",233,"44 Parliament Street",-0.0397249457130364
-"46",251,"201 Claremont Street",-0.040743523585507
-"47",39,"20 Castlefield Avenue",-0.0408683418173001
-"48",17,"716 Pape Avenue",-0.0811684134928682
-"49",217,"1445 Bathurst Street",-0.0828650944024283
-"50",204,"1117 Dundas Street West",-0.107871425104993
-"51",181,"1155 King Street West",-0.111725408192314
-"52",130,"7 Bartlett Avenue",-0.128801493887603
-"53",104,"745 Ossington Avenue, 16 Carling Avenue",-0.138579914592273
-"54",219,"87 Richmond Street East",-0.15248578423743
-"55",106,"15 Denison Avenue",-0.194468213862996
-"56",93,"675 Manning Avenue",-0.213871883969807
-"57",230,"31A Parliament Street",-0.218918202721582
-"58",282,"838 Broadview Ave.",-0.228612183648729
-"59",139,"6 Sherwood Avenue",-0.23911249857792
-"60",85,"557 Palmerston Avenue",-0.295284201470108
-"61",188,"157 Beatrice Street",-0.303306227622907
-"62",289,"373 Front Street East",-0.31173816544879
-"63",133,"20 Prescott Avenue ",-0.314971735650321
-"64",246,"31 Blackthorn Ave",-0.318317169430475
-"65",180,"268 Rhodes Ave",-0.32746805236375
-"66",260,"94 Northcliffe Blvd.",-0.384273976675687
-"67",249,"1670 Bayview Ave",-0.395132446735713
-"68",805,"Keele Lot - 400 Indian Road",-0.399185064983753
-"69",21,"72 Amroth Avenue",-0.40558845598356
-"70",225,"80 Clinton Street",-0.427653319920065
-"71",20,"101 Cedarvale Avenue",-0.428890497131812
-"72",244,"1439 Danforth Avenue",-0.432392268576093
-"73",252,"154 Westmount Avenue",-0.435408516921677
-"74",173,"737 Rhodes Avenue",-0.437079572852863
-"75",82,"9 Emerson Ave.",-0.454378951052599
-"76",81,"695 Lansdowne Avenue",-0.466133582029005
-"77",302,"545 Lake Shore Boulevard West",-0.477278899271284
-"78",18,"351 Keele Street",-0.48660131222534
-"79",216,"205 McCaul Street",-0.490648334226723
-"80",248,"136 Broadview Avenue",-0.500775713583981
-"81",266,"250 Fort York Blvd. ",-0.544441236890086
-"82",143,"265 Willard Avenue",-0.58376324125627
-"83",269,"1010 Yonge St.",-0.586861385023424
-"84",815,"Leslie Lot - 2760 Old Leslie Street",-0.589242093368047
-"85",174,"151 Hiawatha Road",-0.596470977856056
-"86",164,"453 Spadina Road",-0.601712368414683
-"87",287,"1091 Eastern Avenue",-0.604264467630516
-"88",600,"550 Mortimer Avenue",-0.626477143625489
-"89",47,"125 Burnaby Blvd",-0.655750015692076
-"90",670,"2053 Dufferin Street",-0.703828325777067
-"91",202,"1141 Eastern Avenue",-0.713617310875913
-"92",80,"400 Keele Street",-0.729536640518833
-"93",227,"105 Spadina Avenue",-0.745963491392651
-"94",55,"23 Bedford Park Avenue",-0.755268429585719
-"95",223,"1501 Yonge Street",-0.76493001915212
-"96",45,"111 Broadview Avenue",-0.773216427236323
-"97",200,"1167 Eastern Avenue",-0.813710441385506
-"98",146,"573 Gerrard Street East",-0.83295440336704
-"99",212,"363 Adelaide Street West",-0.842344371449778
-"100",658,"2054 Dufferin Street",-0.855067271720327
-"101",303,"136 Wineva Ave.",-0.859590992579953
-"102",653,"17 Riverview Gardens",-0.86830845843034
-"103",179,"653 Gerrard Street East",-0.870808132727747
-"104",259,"4 Spadina Road",-0.879803491984008
-"105",5,"15 Wellesley Street East",-0.884100697644625
-"106",185,"116 Joseph Duggan Rd",-0.902657189884636
-"107",187,"116 Winners Circle",-0.906442596645942
-"108",155,"995 Eglinton Avenue West",-0.918161894333312
-"109",656,"1A Mould Avenue",-0.931415672018854
-"110",195,"15 Price St",-0.932320385215333
-"111",19,"385 Pacific Avenue",-0.975534590265314
-"112",12,"30 Alvin Avenue",-0.988649822539683
-"113",654,"16 Riverview Gardens",-1.01353697678774
-"114",663,"1 Shortt Street",-1.02923875559039
-"115",48,"85 Lee Avenue",-1.05873531075521
-"116",186,"118 Sarah Ashbridge Ave",-1.06334104870634
-"117",824,"Victoria Main Lot - 777 Victoria Park Avenue",-1.10604224339375
-"118",218,"3354 Dundas Street West",-1.10706316161717
-"119",667,"1531 Eglinton Avenue West",-1.14060850968872
-"120",184,"192 Boardwalk Dr",-1.14727370613987
-"121",194,"20 Ashbridges Bay Park Road (Parks)",-1.14989459555344
-"122",701,"197 Blantyre Avenue",-1.19077138355671
-"123",193,"1675 Lakeshore Blvd. E. (Parks)",-1.21997141353333
-"124",207,"2001 Lake Shore Blvd. West (Parks)",-1.24958138395851
-"125",424,"2170 Bayview avenue",-1.27361356709422
-"126",141,"141 Greenlaw Avenue",-1.3695051277973
-"127",152,"25 Glenforest Road",-1.40671449704887
-"128",238,"9 Madison Ave.",-1.45237436383306
-"129",131,"912 Eglinton Avenue West",-1.50244727601278
-"130",243,"115 Unwin Avenue",-1.61246744599945
-"131",263,"130 Elizabeth Street - Toronto Coach Terminal",-1.70939169861649
-"132",206,"2001 Lake Shore Blvd. West (Parks)",-1.83488341096948
-"133",411,"1880 Avenue Road",-1.88646383567193
-"134",205,"465 Huron Street",-1.92872812050165
-"135",522,"2195 Lake shore Blvd West (Parks)",-2.19457249873529
-"136",823,"Warden South Lot - 701 Warden Ave",-2.20288592577585
-"137",651,"1169 Weston Road",-2.20739640077867
-"138",525,"2225 Lake shore Blvd West (Parks)",-2.24057278891689
-"139",523,"2225 Lake shore Blvd West (Parks)",-2.30506391758095
-"140",524,"2225 Lake shore Blvd West (Parks)",-2.33608417125107
-"141",513,"575 Royal York Road",-2.34362150201946
-"142",502,"342 Prince Edward Drive N.",-2.34381367552716
-"143",810,"Wilson South Lot - 30 Tippett Road",-2.38768217520359
-"144",829,"Transit Road Lot - 25 Transit Rd",-2.41302917379052
-"145",822,"Warden North Lot - 705 Warden Ave",-2.41451546554417
-"146",833,"3950 Keele Street",-2.42346631158141
-"147",534,"15 Marine Parade Drive",-2.43948095650771
-"148",652,"301 Scott Road",-2.55925439528916
-"149",668,"2700 Eglinton Avenue West",-2.56232455671817
-"150",669,"2700 Eglinton Avenue West",-2.58633633580931
-"151",674,"2623 Eglinton Avenue West",-2.59998484742521
-"152",827,"Downsview Lot - 415 William R Allen Rd",-2.71735875363592
-"153",675,"4 Rosemount Avenue",-2.71810119438603
-"154",526,"2225 Lake shore Blvd West (Parks)",-2.73091577796173
-"155",517,"15 Primrose Avenue",-2.74803699476045
-"156",657,"271A Scarlett Road",-2.78358971206819
-"157",527,"2225 Lake shore Blvd West (Parks)",-2.80520595336508
-"158",811,"Wilson Main Lot - 50 Wilson Heights Blvd",-2.80871437429835
-"159",519,"5 Dayton Avenue",-2.84649586343015
-"160",401,"246 Brooke Avenue",-2.89034281717272
-"161",403,"10 Harlandale Avenue",-2.99189106746523
-"162",500,"7 Jackson Avenue",-3.07920670173831
-"163",414,"3885 Yonge Street",-3.29395458129304
-"164",503,"12 Willingdon Blvd. - partial construction, reduced spaces",-3.30488204560555
-"165",504,"9 Willingdon Blvd.",-3.30950041958441
-"166",501,"11 Grenview Blvd. N.",-3.39139622710103
-"167",418,"68 Sheppard Avenue West",-3.4217826616673
-"168",505,"934 Royal York Road",-3.43332189530417
-"169",410,"180 Beecroft Road",-3.4752308489807
-"170",107,"251 MacPherson Avenue",-3.59072085923205
-"171",412,"11 Finch Avenue West",-3.65328040589653
-"172",402,"10 Empress Avenue",-3.65411361079688
-"173",413,"4576 Yonge Street",-3.72457028777968
-"174",816,"Don Mills Lot - 1800 Sheppard Ave East",-3.74121075802848
-"175",709,"1940 Lawrence Avenue East",-3.91058017678094
-"176",400,"10 Kingsdale Avenue",-3.91488217265307
-"177",419,"5667 Yonge Street",-4.03193853545708
-"178",507,"66 Third Street",-4.04187080780373
-"179",506,"140 Fifth Street",-4.05688239294079
-"180",509,"105 Fourth Street",-4.08086705182324
-"181",834,"2800 Steeles Ave W.",-4.18177831434731
-"182",514,"139 ISLINGTON AVE.",-4.19129273977108
-"183",511,"120 Sixth Street",-4.20804421200554
-"184",512,"3220 Bloor Street West",-4.22560762858876
-"185",835,"7332 Jane St",-4.31633710612934
-"186",826,"Kennedy North Service Road - 2450 Eglinton Ave East",-4.50589096677908
-"187",705,"1 Brimley Road (Bluffer's Park)",-4.5202093598648
-"188",508,"128 Eighth Street",-4.5313544752575
-"189",814,"Finch East - 814 Willowdale Ave - partial closure, reduced spaces",-4.55283394868781
-"190",521,"7 Monkton Avenue",-4.70047190737932
-"191",821,"Kennedy South Lot -155 Transway Cres",-4.71067396759429
-"192",702,"1 Brimley Road (Bluffer's Park)",-4.79873420191718
-"193",813,"Finch West Lot - 18 Hendon Ave",-4.80087179945853
-"194",804,"Islington Lomond Lot - 20 Lomond Drive",-4.80901432426666
-"195",532,"14 Barkwin Dr.",-4.8621711038997
-"196",516,"WOOLGAR LANEWAY REAR OF 1124 THE QUEENSWAY",-5.09859352061106
-"197",831,"22 Fieldway Rd",-5.11192457522743
-"198",802,"Islington Main Lot - 3330 Bloor Street West",-5.12409729330567
-"199",520,"20 Royalavon Crescent",-5.20178901005981
-"200",703,"1 Brimley Road (Bluffer's Park)",-5.24190453086403
-"201",818,"Lawrence East Lot - Near 2450 Lawrence Ave East",-5.39666762448266
-"202",529,"65 Colonel Samuel Smith Park Drive",-5.49532113510429
-"203",510,"3239 Lake Shore Boulevard West",-5.79144883018414
-"204",528,"5 Colonel Samuel Smith Park Drive",-5.86147345959122
-"205",801,"Kipling South Lot - 400 Munster Avenue",-6.04308931704107
-"206",817,"Ellesmere Lot - Near 1050 Ellesmere Road - closed for construction until November 2019",-6.1530993481363
-"207",706,"284 Milner Avenue",-6.7492848988867
-"208",711,"158 Borough Drive",-6.8083937835589
-"209",707,"1530 Markham Road - minor capital repairs onsite",-6.8639360137157
-"210",710,"100 Grangeway Avenue",-8.09323928360909
-"211",700,"101 Grangeway Avenue",-8.19191029535701
+"1",279,"287 Rushton Road",2.42741192328213
+"2",90,"17 Eaton Avenue",1.71869265349553
+"3",144,"376 Clinton Street",1.64520040337943
+"4",89,"20 Eaton Avenue",1.63106147346431
+"5",224,"34 Hanna Avenue",1.5139287331
+"6",659,"341 Oakwood Avenue",1.49782903860892
+"7",41,"7 Norton Avenue",1.44436065695347
+"8",44,"14 Fuller Avenue",1.43720205307553
+"9",181,"1155 King Street West",1.39908498191123
+"10",289,"373 Front Street East",1.33751348096372
+"11",28,"670 Pape Avenue",1.27397488533343
+"12",229,"110 Dovercourt Road",1.23794677813923
+"13",53,"803 Richmond Street West",1.21514732183259
+"14",156,"18 Ferrier Avenue",1.19607163947018
+"15",17,"716 Pape Avenue",1.1913256567853
+"16",88,"25 Ferrier Avenue",1.18191684457135
+"17",660,"406 Oakwood Avenue",1.16190645440922
+"18",188,"157 Beatrice Street",1.11708878263657
+"19",288,"292 Brunswick Avenue",1.04982493743857
+"20",149,"12 Woodycrest Avenue",1.04959610703897
+"21",268,"271 Front Street East",1.0235082934254
+"22",240,"700 St. Clair Ave West",0.999288829713211
+"23",252,"154 Westmount Avenue",0.980864933376281
+"24",227,"105 Spadina Avenue",0.931976037039714
+"25",168,"146 Harrison Street",0.929835434131152
+"26",256,"1624 Queen Street West",0.900273244395245
+"27",212,"363 Adelaide Street West",0.899351936332786
+"28",93,"675 Manning Avenue",0.872684164880872
+"29",204,"1117 Dundas Street West",0.841920537014321
+"30",216,"205 McCaul Street",0.80603525409875
+"31",225,"80 Clinton Street",0.761334043605453
+"32",80,"400 Keele Street",0.728190557990835
+"33",3,"13 Isabella Street",0.707271969352732
+"34",230,"31A Parliament Street",0.694600485552257
+"35",106,"15 Denison Avenue",0.685767607436288
+"36",12,"30 Alvin Avenue",0.683128537914718
+"37",180,"268 Rhodes Ave",0.673139569489031
+"38",146,"573 Gerrard Street East",0.666008747804008
+"39",223,"1501 Yonge Street",0.664806242134125
+"40",174,"151 Hiawatha Road",0.645617108450915
+"41",155,"995 Eglinton Avenue West",0.591649777672299
+"42",143,"265 Willard Avenue",0.575207875412884
+"43",653,"17 Riverview Gardens",0.563825269702628
+"44",158,"1325 Queen Street West",0.559633754227975
+"45",233,"44 Parliament Street",0.5534713545716
+"46",20,"101 Cedarvale Avenue",0.49807038492389
+"47",805,"Keele Lot - 400 Indian Road",0.486744539487955
+"48",263,"130 Elizabeth Street - Toronto Coach Terminal",0.481474962440934
+"49",21,"72 Amroth Avenue",0.466829658500245
+"50",18,"351 Keele Street",0.458264556287895
+"51",271,"800 Fleet Street",0.446395918321934
+"52",137,"77 Gough Avenue",0.443281905793894
+"53",251,"201 Claremont Street",0.43429074163831
+"54",246,"31 Blackthorn Ave",0.428834623725038
+"55",654,"16 Riverview Gardens",0.426931554901825
+"56",244,"1439 Danforth Avenue",0.415624106261437
+"57",656,"1A Mould Avenue",0.407198889677595
+"58",104,"745 Ossington Avenue, 16 Carling Avenue",0.39429353998421
+"59",71,"35 Bellevue Avenue",0.372109280160017
+"60",167,"18 Ossington Avenue",0.328658043775163
+"61",220,"789 St. Clair Avenue West",0.314738859405411
+"62",85,"557 Palmerston Avenue",0.268508440189387
+"63",109,"51 Aberdeen Avenue",0.237913747455618
+"64",241,"9 Bonar Place",0.236994229373163
+"65",661,"433 Rogers Road",0.231008713078959
+"66",84,"9 Salem Avenue",0.196812896822995
+"67",670,"2053 Dufferin Street",0.180394274925631
+"68",116,"255 Kennedy Avenue",0.166199657912437
+"69",282,"838 Broadview Ave.",0.165813877511232
+"70",219,"87 Richmond Street East",0.147127329738421
+"71",173,"737 Rhodes Avenue",0.132933034807884
+"72",260,"94 Northcliffe Blvd.",0.109929973995612
+"73",248,"136 Broadview Avenue",0.0662616150471644
+"74",658,"2054 Dufferin Street",0.0551681844485986
+"75",277,"242 Danforth Avenue",0.00462234907108006
+"76",226,"646 St. Clair Avenue West",-0.0240861049321369
+"77",600,"550 Mortimer Avenue",-0.0271447158928645
+"78",45,"111 Broadview Avenue",-0.028283005948754
+"79",663,"1 Shortt Street",-0.0345662149115393
+"80",209,"300 Remembrance Drive ",-0.0355373627578988
+"81",287,"1091 Eastern Avenue",-0.0850075790940267
+"82",228,"11 Kenwood Avenue",-0.0927747012564621
+"83",81,"695 Lansdowne Avenue",-0.0931218441729543
+"84",195,"15 Price St",-0.114022895590274
+"85",131,"912 Eglinton Avenue West",-0.11485276698362
+"86",303,"136 Wineva Ave.",-0.115183664833492
+"87",179,"653 Gerrard Street East",-0.126629544468674
+"88",200,"1167 Eastern Avenue",-0.148110721510851
+"89",39,"20 Castlefield Avenue",-0.163812536073106
+"90",79,"405 Sherbourne Street",-0.200956901996143
+"91",19,"385 Pacific Avenue",-0.251577173856536
+"92",259,"4 Spadina Road",-0.255727238612488
+"93",815,"Leslie Lot - 2760 Old Leslie Street",-0.267739825640917
+"94",184,"192 Boardwalk Dr",-0.277171489133165
+"95",202,"1141 Eastern Avenue",-0.290660585266781
+"96",130,"7 Bartlett Avenue",-0.302897953010513
+"97",238,"9 Madison Ave.",-0.310603652269071
+"98",187,"116 Winners Circle",-0.335650774774144
+"99",133,"20 Prescott Avenue ",-0.361260627001687
+"100",269,"1010 Yonge St.",-0.396494485674443
+"101",194,"20 Ashbridges Bay Park Road (Parks)",-0.433363270098135
+"102",193,"1675 Lakeshore Blvd. E. (Parks)",-0.434595132107829
+"103",217,"1445 Bathurst Street",-0.449424307132085
+"104",205,"465 Huron Street",-0.45348645012957
+"105",210,"1275 Lakeshore Blvd. W. (Parks)",-0.502753526809193
+"106",164,"453 Spadina Road",-0.525354834845452
+"107",185,"116 Joseph Duggan Rd",-0.53278750516452
+"108",523,"2225 Lake shore Blvd West (Parks)",-0.553335553744757
+"109",524,"2225 Lake shore Blvd West (Parks)",-0.570982073142023
+"110",208,"1575 Lake Shore Blvd. W. (Parks)",-0.588309183308864
+"111",824,"Victoria Main Lot - 777 Victoria Park Avenue",-0.614343981890462
+"112",249,"1670 Bayview Ave",-0.615212793523561
+"113",602,"1503 Bayview Avenue",-0.617171599168314
+"114",64,"265 Durie Street",-0.638634958543452
+"115",513,"575 Royal York Road",-0.676381175480999
+"116",5,"15 Wellesley Street East",-0.685648390216787
+"117",235,"2201 Dundas Street West",-0.73826505736623
+"118",517,"15 Primrose Avenue",-0.752253970562792
+"119",139,"6 Sherwood Avenue",-0.752898558688342
+"120",142,"31 Langford Avenue",-0.766608539430259
+"121",152,"25 Glenforest Road",-0.767882590582874
+"122",302,"545 Lake Shore Boulevard West",-0.789071171827678
+"123",48,"85 Lee Avenue",-0.861995726139109
+"124",218,"3354 Dundas Street West",-0.887264850492979
+"125",667,"1531 Eglinton Avenue West",-0.894845834402
+"126",82,"9 Emerson Ave.",-0.917903659732925
+"127",186,"118 Sarah Ashbridge Ave",-0.933239746728209
+"128",519,"5 Dayton Avenue",-0.952559323156918
+"129",701,"197 Blantyre Avenue",-0.964068967593078
+"130",141,"141 Greenlaw Avenue",-0.983184041615004
+"131",266,"250 Fort York Blvd. ",-0.99743148260654
+"132",525,"2225 Lake shore Blvd West (Parks)",-1.00542341040135
+"133",527,"2225 Lake shore Blvd West (Parks)",-1.1212064344371
+"134",534,"15 Marine Parade Drive",-1.16400521235717
+"135",833,"3950 Keele Street",-1.16746828713943
+"136",522,"2195 Lake shore Blvd West (Parks)",-1.17861708925233
+"137",526,"2225 Lake shore Blvd West (Parks)",-1.24108010280987
+"138",829,"Transit Road Lot - 25 Transit Rd",-1.28915103469074
+"139",823,"Warden South Lot - 701 Warden Ave",-1.31298131341351
+"140",47,"125 Burnaby Blvd",-1.34088907653629
+"141",810,"Wilson South Lot - 30 Tippett Road",-1.35213897246559
+"142",206,"2001 Lake Shore Blvd. West (Parks)",-1.36191086920877
+"143",411,"1880 Avenue Road",-1.38065916111939
+"144",207,"2001 Lake Shore Blvd. West (Parks)",-1.39048060780221
+"145",55,"23 Bedford Park Avenue",-1.44671795731461
+"146",675,"4 Rosemount Avenue",-1.46713107807283
+"147",811,"Wilson Main Lot - 50 Wilson Heights Blvd",-1.60398492211884
+"148",668,"2700 Eglinton Avenue West",-1.64571777807714
+"149",669,"2700 Eglinton Avenue West",-1.67581204776795
+"150",652,"301 Scott Road",-1.69658710227777
+"151",674,"2623 Eglinton Avenue West",-1.70605037088439
+"152",506,"140 Fifth Street",-1.73375521339817
+"153",507,"66 Third Street",-1.73605311638403
+"154",509,"105 Fourth Street",-1.7635739083715
+"155",424,"2170 Bayview avenue",-1.81716860678355
+"156",514,"139 ISLINGTON AVE.",-1.84628519723696
+"157",511,"120 Sixth Street",-1.85250409616698
+"158",502,"342 Prince Edward Drive N.",-2.07123337280993
+"159",834,"2800 Steeles Ave W.",-2.07813427099003
+"160",508,"128 Eighth Street",-2.13268442876666
+"161",651,"1169 Weston Road",-2.30335518265778
+"162",532,"14 Barkwin Dr.",-2.35180430857383
+"163",835,"7332 Jane St",-2.37751370176409
+"164",500,"7 Jackson Avenue",-2.50515449326306
+"165",822,"Warden North Lot - 705 Warden Ave",-2.51813880284481
+"166",401,"246 Brooke Avenue",-2.54062340562025
+"167",107,"251 MacPherson Avenue",-2.56151612729342
+"168",816,"Don Mills Lot - 1800 Sheppard Ave East",-2.57918511828585
+"169",300,"185 Queens Quay East",-2.61529305037482
+"170",503,"12 Willingdon Blvd. - partial construction, reduced spaces",-2.62936851307773
+"171",504,"9 Willingdon Blvd.",-2.63114307535153
+"172",827,"Downsview Lot - 415 William R Allen Rd",-2.65345350367284
+"173",516,"WOOLGAR LANEWAY REAR OF 1124 THE QUEENSWAY",-2.69392379864347
+"174",501,"11 Grenview Blvd. N.",-2.78798139912963
+"175",529,"65 Colonel Samuel Smith Park Drive",-2.85073653518383
+"176",414,"3885 Yonge Street",-2.8512096494863
+"177",505,"934 Royal York Road",-2.99653145491491
+"178",403,"10 Harlandale Avenue",-3.0514380890018
+"179",705,"1 Brimley Road (Bluffer's Park)",-3.17285120165401
+"180",510,"3239 Lake Shore Boulevard West",-3.18217853276115
+"181",410,"180 Beecroft Road",-3.24812598930772
+"182",528,"5 Colonel Samuel Smith Park Drive",-3.25069617453167
+"183",413,"4576 Yonge Street",-3.30341581049277
+"184",512,"3220 Bloor Street West",-3.31873162180321
+"185",657,"271A Scarlett Road",-3.31931429454735
+"186",402,"10 Empress Avenue",-3.36302614364205
+"187",400,"10 Kingsdale Avenue",-3.60491927314099
+"188",412,"11 Finch Avenue West",-3.63254800352951
+"189",418,"68 Sheppard Avenue West",-3.65959465938032
+"190",702,"1 Brimley Road (Bluffer's Park)",-3.74762062522062
+"191",521,"7 Monkton Avenue",-3.79861912634934
+"192",703,"1 Brimley Road (Bluffer's Park)",-3.8842266558285
+"193",804,"Islington Lomond Lot - 20 Lomond Drive",-3.95354706623705
+"194",419,"5667 Yonge Street",-3.99869451468121
+"195",709,"1940 Lawrence Avenue East",-4.00653102536894
+"196",802,"Islington Main Lot - 3330 Bloor Street West",-4.06477242222152
+"197",831,"22 Fieldway Rd",-4.07539131683274
+"198",520,"20 Royalavon Crescent",-4.18450953336561
+"199",826,"Kennedy North Service Road - 2450 Eglinton Ave East",-4.29098840942282
+"200",243,"115 Unwin Avenue",-4.29161826058809
+"201",814,"Finch East - 814 Willowdale Ave - partial closure, reduced spaces",-4.31596115335188
+"202",813,"Finch West Lot - 18 Hendon Ave",-4.39626962982262
+"203",821,"Kennedy South Lot -155 Transway Cres",-4.44325468966994
+"204",801,"Kipling South Lot - 400 Munster Avenue",-4.69689926743484
+"205",706,"284 Milner Avenue",-5.81881203119881
+"206",707,"1530 Markham Road - minor capital repairs onsite",-5.92902416312741
+"207",818,"Lawrence East Lot - Near 2450 Lawrence Ave East",-6.30434461951919
+"208",817,"Ellesmere Lot - Near 1050 Ellesmere Road - closed for construction until November 2019",-6.42336814910356
+"209",711,"158 Borough Drive",-6.52642635835138
+"210",710,"100 Grangeway Avenue",-7.76837001043564
+"211",700,"101 Grangeway Avenue",-7.83365128905071
