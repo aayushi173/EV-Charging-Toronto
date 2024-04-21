@@ -35,7 +35,7 @@ Step 4. Create Project
 
 Step 5: File -> Open File... -> Team-30-main -> Code -> EV Charging.r 
 
-Previewing Code and Usage: 
+## Previewing Code and Usage: 
 
 Previewing code through Jupiter notebook provides a glimpse into the process and output followed to develop our solution to our problem statement (Determining the order of car park conversion to EV charging stations). 
 
