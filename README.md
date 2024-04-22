@@ -13,10 +13,15 @@ Download Project from GitHub as ZIP (Reference below for downloading project). E
 
 ## Data Sources:  
 
-Data was sourced from open data Toronto portal https://open.toronto.ca/dataset which is contained in a R Library: library(opendatatoronto). Link to download the Traffic Data: https://open.toronto.ca/dataset/traffic-volumes-at-intersections-for-all-modes/ 
-Link for business information: https://open.toronto.ca/dataset/municipal-licensing-and-standards-business-licences-and-permits/.  
+Data was sourced from open data Toronto portal https://open.toronto.ca/dataset which is contained in a R Library: library(opendatatoronto). 
 
-Data downloaded from source for purpose of analysis. Utilizing the library(opendatatoronto). Library presented limitation for number of records (limited to the max of 32000 records). 
+Link to download the Traffic data: https://open.toronto.ca/dataset/traffic-volumes-at-intersections-for-all-modes/ 
+
+Link for Business data: https://open.toronto.ca/dataset/municipal-licensing-and-standards-business-licences-and-permits/.  
+
+Link for GreenPParking data: data:https://open.toronto.ca/dataset/green-p-parking/
+
+Data is downloaded from source for purpose of analysis utilizing the library(opendatatoronto). Library presented limitation for number of records (limited to the max of 32000 records). 
 
 
 ## Code File:  
@@ -29,9 +34,9 @@ Previewing code through Jupiter notebook provides a glimpse into the process and
 
 Opening .../Code/EV Charging.ipynb will provide access to the code in a Jupiter notebook interface with code and output. The code is broken down by data gathering, preprocessing, and model development.  
 
+The Output from Model –SVM (with KNN):  
+
  
-
-
 ## Code overview: 
 
 Reference Jupiter Notebook code version for comment on code. Below is the additional background for segments of the code.  
@@ -91,6 +96,7 @@ c) Physical address conversion to geocoder using tidygeocoder from tidyverse pac
 
 d) Adding simulated number of customer (qCustomer) and time spent (tCustomer) during busy hours to biz_geo_loc1. ‘Category’ is used as an input for simulating the customer number and time spent using random number generation based on its customer arrival rate λ (Lamda) and average service time in hour µ (mu) assumption on each business type which is defined in as in “biz_category_customer.csv”. We assume Poisson process with the arrival rate (lamda) customer per hour whereas the time spent for each customer follows exponential distribution with average time spent (mu) hour per customer.  
 
+ 
 ### Green P Parking and Model:
 
 Performed data cleaning tasks such as standardizing formats, handling missing values, and removing duplicates on GreenPParking dataset sourced from https://open.toronto.ca/dataset/green-p-parking/ and cleaned file is stored at "../Data/DataProcessing/parking_data.csv". 
