@@ -16,7 +16,7 @@ Download Project from GitHub as ZIP (Reference below for downloading project). E
 Data was sourced from open data Toronto portal https://open.toronto.ca/dataset which is contained in a R Library: library(opendatatoronto). Link to download the Traffic Data: https://open.toronto.ca/dataset/traffic-volumes-at-intersections-for-all-modes/ 
 Link for business information: https://open.toronto.ca/dataset/municipal-licensing-and-standards-business-licences-and-permits/.  
 
-Data downloaded from source for purpose of analysis. Utilizing the library(opendatatoronto) library presented limitation for number of records. (limited to the max of 32000 records). 
+Data downloaded from source for purpose of analysis. Utilizing the library(opendatatoronto). Library presented limitation for number of records (limited to the max of 32000 records). 
 
 
 ## Code File:  
@@ -52,9 +52,11 @@ The data used for this project is from the ‘raw_data_<yyyy-yyyy>’ datafiles 
  
 ### Business Section:
 
-Business Section INPUT: ‘biz_data’ dataframe which read from ("../Data/Toronto/business/business licences data.csv") and was downloaded from https://open.toronto.ca/dataset/municipal-licensing-and-standards-business-licences-and-permits/. The explanation of data is provided at same location as business-licence-readme.xls  
+Business Section INPUT: ‘biz_data’ dataframe which is read from https://open.toronto.ca/dataset/municipal-licensing-and-standards-business-licences-and-permits/. The explanation of data is provided at same location as business-licence-readme.xls  
 
-OUTPUT: ‘biz_geo_loc1’ dataframe which is pre-uploaded ("../Data/Toronto/business/biz_geo_loc1.csv") due to time consuming on tidygeocoder function in section c).   The output data consists of 12 variables i.e. 
+OUTPUT: ‘biz_geo_loc1’ dataframe which is pre-uploaded ("../Data/DataProcessing/biz_geo_loc1.csv") due to time consuming on tidygeocoder function in section c).   
+
+The output data consists of 12 variables i.e. 
 
 Category : business type as defined from Opendatatoronto 
 
@@ -80,7 +82,7 @@ tCustomer: time spent at the business per customer simulated from rexp(mu)
 
 CODE:  
 
-Codes are separated into 4 sections:  
+Code is separated into 4 sections:  
 
 a) Load data from Opendatatoronto to biz_data dataframe  
 
@@ -92,11 +94,11 @@ d) Adding simulated number of customer (qCustomer) and time spent (tCustomer) du
 
 ### Green P Parking and Model:
 
-Performed data cleaning tasks such as standardizing formats, handling missing values, and removing duplicates. 
+Performed data cleaning tasks such as standardizing formats, handling missing values, and removing duplicates on GreenPParking dataset sourced from https://open.toronto.ca/dataset/green-p-parking/ and cleaned file is stored at "../Data/DataProcessing/parking_data.csv". 
 
  Converted character columns to numeric class. 
 
- Extract street name from the address.
+ Extracted street name from the address.
 
  Added a column named Convert set to 1 for already existing EV Charging Stations and 0 for the others. 
 
@@ -110,6 +112,6 @@ Performed data cleaning tasks such as standardizing formats, handling missing va
 
  Used coefficients from the SVM model to calculate the weighted score. 
 
- OUTPUT: Top 5 parking locations to convert to EV Charging stations. 
+ OUTPUT: Top 5 parking locations to convert to EV Charging stations (stored in a csv file at "../Data/DataProcessing/sorted_result.csv").
 
  
