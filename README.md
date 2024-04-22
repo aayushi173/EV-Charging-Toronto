@@ -9,7 +9,7 @@ The project’s objective is to determine the order of car park conversion to EV
 
 ## Downloading and Running Project: 
 
-Download Project from GitHub as ZIP (Reference below for downloading project). Extract Zip folder and save on computer. 
+Download Project from GitHub as ZIP. Extract Zip folder and save on computer. 
 
 ## Data Sources:  
 
