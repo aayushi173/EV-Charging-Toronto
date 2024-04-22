@@ -38,7 +38,7 @@ The Output from Model –SVM (with KNN):
 Reference Jupiter Notebook code version for comment on code. Below is the additional background for segments of the code.  
 
 ### Traffic:
-The traffic dataset provides traffic volume across the city of Toronto collected by City of Toronto's Transportation Services Division.
+The traffic dataset sorced from https://open.toronto.ca/dataset/traffic-volumes-at-intersections-for-all-modes/ provides traffic volume across the city of Toronto collected by City of Toronto's Transportation Services Division.
 
 The data presents the total volumes observed at specific intersections, segmented by direction of approach, turning movement (if applicable), and mode (car, truck, bus, pedestrian, cyclist, other) at the time of observation. 
 
@@ -47,7 +47,7 @@ The data used for this project is from the ‘raw_data_<yyyy-yyyy>’ datafiles 
  Data processing is done to group the result by block of year ith instead of directly using the observed year ‘yyyy’ data and only selected peak hour of the car counted on any given counted date. In the case that there are records on the same location on multiple days in the same year, the average number of cars over daily peak hour is used for the given year.
 
  OUTPUT:
- A dataframe named CleanTraffic consisting of following columns: year, location_id, loaction, lat, lng, AvgTotal
+ A dataframe named CleanTraffic ("../Data/DataProcessing/CleanTraffic.csv") consisting of following columns: year, location_id, loaction, lat, lng, AvgTotal
 
  
 ### Business Section:
