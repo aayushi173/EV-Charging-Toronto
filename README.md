@@ -46,35 +46,21 @@ The Output from Model –SVM (with KNN):
 
  
 
-## More Information about the data: 
+## Code overview: 
 
 Reference Jupiter Notebook code version for comment on code. Below is the additional background for segments of the code.  
 
-Green P Parking: 
+### Traffic:
+The traffic dataset provides traffic volume across the city of Toronto collected by City of Toronto's Transportation Services Division.
+The data presents the total volumes observed at specific intersections, segmented by direction of approach, turning movement (if applicable), and mode (car, truck, bus, pedestrian, cyclist, other) at the time of observation. 
+The data used for this project is from the ‘raw_data_<yyyy-yyyy>’ datafiles which contain the traffic counted result during the period of the year <yyyy-yyyy>. Only ‘car’ mode and Centreline_type 2 (intersection) are used. 
+Data processing is done to group the result by block of year ith instead of directly using the observed year ‘yyyy’ data and only selected peak hour of the car counted on any given counted date. In the case that there are records on the same location on multiple days in the same year, the average number of cars over daily peak hour is used for the given year.
 
-Performed data cleaning tasks such as standardizing formats, handling missing values, and removing duplicates. 
-
-Converted character columns to numeric class. 
-
-Extract street name from the address. 
-
-Added a column named Convert set to 1 for already existing EV Charging Stations and 0 for the others. 
-
-Used KNN to find 8 nearest businesses, average distance, average number of customers, and average time spent at business locations. 
-
-Added EV traffic volume data for the year 2022. 
-
-Grouped by address to get mean of all the variables. Normalized predictors 
-
-Made an SVM model with 'convert' as the dependent variable and 'distance' and 'traffic_volume' as independent variables. 
-
-Used coefficients from the SVM model to calculate the weighted score. 
-
-OUTPUT: Top 12 parking locations to convert to EV Charging stations. 
+ OUTPUT:
+ A dataframe named CleanTraffic consisting of following columns: year, location_id, loaction, lat, lng, AvgTotal
 
  
-
-Business Section:
+### Business Section:
 
 Business Section INPUT: ‘biz_data’ dataframe which read from ("../Data/Toronto/business/business licences data.csv") and was downloaded from https://open.toronto.ca/dataset/municipal-licensing-and-standards-business-licences-and-permits/. The explanation of data is provided at same location as business-licence-readme.xls  
 
@@ -114,5 +100,26 @@ c) Physical address conversion to geocoder using tidygeocoder from tidyverse pac
 
 d) Adding simulated number of customer (qCustomer) and time spent (tCustomer) during busy hours to biz_geo_loc1. ‘Category’ is used as an input for simulating the customer number and time spent using random number generation based on its customer arrival rate λ (Lamda) and average service time in hour µ (mu) assumption on each business type which is defined in as in “biz_category_customer.csv”. We assume Poisson process with the arrival rate (lamda) customer per hour whereas the time spent for each customer follows exponential distribution with average time spent (mu) hour per customer.  
 
- 
+### Green P Parking and Model:
+
+Performed data cleaning tasks such as standardizing formats, handling missing values, and removing duplicates. 
+
+ Converted character columns to numeric class. 
+
+ Extract street name from the address.
+
+ Added a column named Convert set to 1 for already existing EV Charging Stations and 0 for the others. 
+
+ Used KNN to find 8 nearest businesses, average distance, average number of customers, and average time spent at business locations. 
+
+ Added EV traffic volume data for the year 2022. 
+
+ Grouped by address to get mean of all the variables. Normalized predictors 
+
+ Made an SVM model with 'convert' as the dependent variable and 'distance' and 'traffic_volume' as independent variables. 
+
+ Used coefficients from the SVM model to calculate the weighted score. 
+
+ OUTPUT: Top 5 parking locations to convert to EV Charging stations. 
+
  
