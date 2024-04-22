@@ -19,7 +19,7 @@ Link to download the Traffic data: https://open.toronto.ca/dataset/traffic-volum
 
 Link for Business data: https://open.toronto.ca/dataset/municipal-licensing-and-standards-business-licences-and-permits/.  
 
-Link for GreenPParking data: data:https://open.toronto.ca/dataset/green-p-parking/
+Link for GreenPParking data: https://open.toronto.ca/dataset/green-p-parking/
 
 Data is downloaded from source for purpose of analysis utilizing the library(opendatatoronto). Library presented limitation for number of records (limited to the max of 32000 records). 
 
