@@ -15,31 +15,34 @@ Download Project from GitHub as ZIP (Reference below for downloading project). E
 
 Data was sourced from open data Toronto portal https://open.toronto.ca/dataset which is contained in a R Library: library(opendatatoronto). 
 
-Link to download the Traffic data: https://open.toronto.ca/dataset/traffic-volumes-at-intersections-for-all-modes/ 
+Link to download the Traffic data: https://open.toronto.ca/dataset/traffic-volumes-at-intersections-for-all-modes/ , download file(s) named: locations.csv, raw-data-1980-1989.csv, raw-data-1990-1999.csv, raw-data-2000-2009.csv, raw-data-2010-2019.csv and raw-data-2020-2029.csv
+and then save all data files in the folder : \Data\Toronto\Traffic
 
-Link for Business data: https://open.toronto.ca/dataset/municipal-licensing-and-standards-business-licences-and-permits/.  
+Link for Business data: https://open.toronto.ca/dataset/municipal-licensing-and-standards-business-licences-and-permits/.  download file(s) named: business-licence-readme.xls and business licences data.csv. 
+and then save all data files in the folder : \Data\Toronto\Business . Note the file biz_category_customer.csv is manually generated to simulate the business data in our model
 
-Link for GreenPParking data: https://open.toronto.ca/dataset/green-p-parking/
-
+Link for GreenPParking data: https://open.toronto.ca/dataset/green-p-parking/ .
 Data is downloaded from source for purpose of analysis utilizing the library(opendatatoronto). Library presented limitation for number of records (limited to the max of 32000 records). 
 
+## Pre-Process data: 
+Pre Process data output are saved in \Data\DataProcessing to speed up the code run time. Especially business location conversion would take a vast amount of time ( roughly 3 hours on a typical PC). The Parameter RUN_DATA_PROCESSING is set to FALSE by default as all the data processing has been done to speed up the code run time in the Jupyter Notebook.  set it to TRUE if you are want to run the code to process the raw data from scratch. 
 
 ## Code File:  
 
-The code can be run through a Jupiter notebook compatible environment (.../Code/EV Charging.ipynb ) 
+The code can be run through a Jupyter notebook compatible environment (.../Code/EV Charging.ipynb ) 
 
 ## Previewing Code and Usage: 
 
-Previewing code through Jupiter notebook provides a glimpse into the process and output followed to develop our solution to our problem statement (Determining the order of car park conversion to EV charging stations). 
+Previewing code through Jupyter notebook provides a glimpse into the process and output followed to develop our solution to our problem statement (Determining the order of car park conversion to EV charging stations). 
 
-Opening .../Code/EV Charging.ipynb will provide access to the code in a Jupiter notebook interface with code and output. The code is broken down by data gathering, preprocessing, and model development.  
+Opening .../Code/EV Charging.ipynb will provide access to the code in a Jupyter notebook interface with code and output. The code is broken down by data gathering, preprocessing, and model development.  
 
 The Output from Model –SVM (with KNN):  
 
  
 ## Code overview: 
 
-Reference Jupiter Notebook code version for comment on code. Below is the additional background for segments of the code.  
+Reference Jupyter Notebook code version for comment on code. Below is the additional background for segments of the code.  
 
 ### Traffic:
 The traffic dataset sorced from https://open.toronto.ca/dataset/traffic-volumes-at-intersections-for-all-modes/ provides traffic volume across the city of Toronto collected by City of Toronto's Transportation Services Division.
@@ -118,5 +121,7 @@ Performed data cleaning tasks such as standardizing formats, handling missing va
  Used coefficients from the SVM model to calculate the weighted score. 
 
  OUTPUT: Top 5 parking locations to convert to EV Charging stations (stored in a csv file at "../Data/DataProcessing/sorted_result.csv").
+ 
+ ### adjust different K values and sample size to see different result. 
 
  
