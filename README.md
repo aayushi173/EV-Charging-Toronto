@@ -7,7 +7,7 @@ Team 30 – Toronto EV Charging Network Expansion: A Sustainable Urban Mobility 
 
 The project’s objective is to determine the order of car park conversion to EV charging stations considering factors such as projected EV traffic volume, accessibility to local business, the potential community benefits and to maximize the effectiveness of the budget.   
 
-Downloading and Running Project: 
+## Downloading and Running Project: 
 
 Download Project from GitHub as ZIP (Reference below for downloading project). Extract Zip folder and save on computer. 
 
@@ -19,22 +19,9 @@ Link for business information: https://open.toronto.ca/dataset/municipal-licensi
 Data used for the project can be found in the Data folder. (.../Data/Toronto/) 
 
 
-
 ## Code File:  
 
-The code can be run through a Jupiter notebook compatible environment (.../Code/EV Charging.ipynb ) or through RStudio (.../Code/EV Charging.r). We recommend running the project through RStudio.  
-
-Running through RStudio: 
-
-Step 1. Open RStudio 
-
-Step 2. File -> New Project -> Existing directory -> Browse  
-
-Step 3. Select project folder downloaded earlier from GitHub as working directory 
-
-Step 4. Create Project 
-
-Step 5: File -> Open File... -> Team-30-main -> Code -> EV Charging.r 
+The code can be run through a Jupiter notebook compatible environment (.../Code/EV Charging.ipynb ) 
 
 ## Previewing Code and Usage: 
 
