@@ -29,9 +29,8 @@ Previewing code through Jupiter notebook provides a glimpse into the process and
 
 Opening .../Code/EV Charging.ipynb will provide access to the code in a Jupiter notebook interface with code and output. The code is broken down by data gathering, preprocessing, and model development.  
 
-The Output from Model –SVM (with KNN):  
-
  
+
 
 ## Code overview: 
 
