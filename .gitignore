@@ -6,6 +6,7 @@
 # Session Data files
 .RData
 
+biz_category_customer.csv
 business.xlsx
 traffic.Rmd
 # User-specific files
