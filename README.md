@@ -16,8 +16,7 @@ Download Project from GitHub as ZIP (Reference below for downloading project). E
 Data was sourced from open data Toronto portal https://open.toronto.ca/dataset which is contained in a R Library: library(opendatatoronto). Link to download the Traffic Data: https://open.toronto.ca/dataset/traffic-volumes-at-intersections-for-all-modes/ 
 Link for business information: https://open.toronto.ca/dataset/municipal-licensing-and-standards-business-licences-and-permits/.  
 
-
-[Change] Data used for the project can be found in the Data folder. (.../Data/Toronto/) 
+Data downloaded from source for purpose of analysis. Utilizing the library(opendatatoronto) library presented limitation for number of records. (limited to the max of 32000 records). 
 
 
 ## Code File:  
