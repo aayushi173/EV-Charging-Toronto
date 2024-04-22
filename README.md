@@ -80,39 +80,39 @@ Business Section INPUT: ‘biz_data’ dataframe which read from ("../Data/Toron
 
 OUTPUT: ‘biz_geo_loc1’ dataframe which is pre-uploaded ("../Data/Toronto/business/biz_geo_loc1.csv") due to time consuming on tidygeocoder function in section c).   The output data consists of 12 variables i.e. 
 
-    Category : business type as defined from Opendatatoronto 
+Category : business type as defined from Opendatatoronto 
 
-    Operating.Name: business name as registered in Opendatatoronto 
+Operating.Name: business name as registered in Opendatatoronto 
 
-    city: City where the business is located (extracted from business address) 
+city: City where the business is located (extracted from business address) 
 
-    Zip: postal code where business is located (extracted from business address) 
+Zip: postal code where business is located (extracted from business address) 
 
-    Street street name where business is located (extracted from business address) 
+Street street name where business is located (extracted from business address) 
 
-    Address :physical address 
+Address :physical address 
 
-    lat, long : Lattitude , Longitude converting from address into geocoder 
+lat, long : Lattitude , Longitude converting from address into geocoder 
 
-    lamda : customer arrival rate used to simulate the number of customer during busy hours(assumption) 
+lamda : customer arrival rate used to simulate the number of customer during busy hours(assumption) 
 
-    mu : expected time spent (in hr) during busy hours of a customer (exponential distribution) 
+mu : expected time spent (in hr) during busy hours of a customer (exponential distribution) 
 
-    qCustomer: number of customer at busy hours simulated from rpois(lamda) 
+qCustomer: number of customer at busy hours simulated from rpois(lamda) 
 
-    tCustomer: time spent at the business per customer simulated from rexp(mu) 
+tCustomer: time spent at the business per customer simulated from rexp(mu) 
 
 CODE:  
 
 Codes are separated into 4 sections:  
 
-    a) Load data from Opendatatoronto to biz_data dataframe  
+a) Load data from Opendatatoronto to biz_data dataframe  
 
-    b) Data cleansing in preparation for geocoder conversion  
+b) Data cleansing in preparation for geocoder conversion  
 
-    c) Physical address conversion to geocoder using tidygeocoder from tidyverse package #section 
-    
-    d) Adding simulated number of customer (qCustomer) and time spent (tCustomer) during busy hours to biz_geo_loc1. ‘Category’ is used as an input for simulating the customer number and time spent using random number generation based on its customer arrival rate λ (Lamda) and average service time in hour µ (mu) assumption on each business type which is defined in as in “biz_category_customer.csv”. We assume Poisson process with the arrival rate (lamda) customer per hour whereas the time spent for each customer follows exponential distribution with average time spent (mu) hour per customer.  
+c) Physical address conversion to geocoder using tidygeocoder from tidyverse package #section 
+
+d) Adding simulated number of customer (qCustomer) and time spent (tCustomer) during busy hours to biz_geo_loc1. ‘Category’ is used as an input for simulating the customer number and time spent using random number generation based on its customer arrival rate λ (Lamda) and average service time in hour µ (mu) assumption on each business type which is defined in as in “biz_category_customer.csv”. We assume Poisson process with the arrival rate (lamda) customer per hour whereas the time spent for each customer follows exponential distribution with average time spent (mu) hour per customer.  
 
  
  
